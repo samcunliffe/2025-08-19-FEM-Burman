@@ -16,14 +16,12 @@ style: |
 <!-- if html tags appear then: https://github.com/marp-team/marpit/issues/178#issuecomment-511106762 -->
 
 
-# Title of the talk
+# Erik Burman FEM Error Estimates.
+## Project Debrief Talk.
 
-First Author¹, Second Author²
+Sam Cunliffe, Matt Graham, Matthew Scroggs
 
-¹Centre for Advanced Research Computing, UCL.
-²Department of Collaborators, UCL.
-
-Conference, Location. 202Y-MM-DD.
+ARC Collaborations' Hour. 2025-08-19.
 
 ---
 
