@@ -1,0 +1,48 @@
+name: marp-to-pages
+concurrency: marp-to-pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Ensure build dir exists
+        run: mkdir -p build
+
+      - name: Copy images directory
+        run: cp -R assets build/assets
+
+      - name: Marp Build
+        uses: docker://marpteam/marp-cli:v4.2.1
+        with:
+          args: slides.md --html -o build/index.html
+        env:
+          MARP_USER: root:root
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build
+
+  deploy:
+    if: github.ref == 'refs/heads/main' # only deploy from main
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
