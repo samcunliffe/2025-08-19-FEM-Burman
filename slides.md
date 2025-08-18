@@ -123,9 +123,12 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 ## Anastasis, Jamie
 
 - Long-running mentoring of two postdocs on best practices.
-- Bar set at: version control, reproducible results in Jupyter, public code for public papers.
-  - Mostly confidence-building and guidance through `git` and virtual environment workflows.
-  - Postdocs attended Software Carpentries.
+- Bar set at:
+  - Version control,
+  - reproducible results in Jupyter,
+  - confidence-building and guidance through `git`
+    and virtual environment workflows.
+  - Postdocs attended Software Carpentries 👍.
 - A _lot_ of pausing (during the time when we were at very high capacity).
 
 ---
@@ -134,7 +137,8 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ## May 2023
 
-- Matt supports postdocs and gently pushes them to abstract things into a [reusable library](https://github.com/ucl/dxh) (common helper functions, plotting).
+- Continues supporting postdocs.
+  - Gently encourages them to abstract common functions into a [reusable library](https://github.com/ucl/dxh) (common helper functions, plotting).
 - We realise there's more hours than we could use for mentoring.
 - Suggest to actively work on postdoc code, move it into a package.
 - Matt realises he's needed by Thanzi la Onse.
@@ -153,23 +157,6 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ---
 
-# But things go south
-
-> Suggest to actively take postdoc code, move it into a package.
-
-<!-- prettier-ignore-start -->
-
-* The way the collaborations team measures indirects changes midway.
-  - At the end of the month, indirects come in a chunk.
-* Both team members have unusually high indirects, burning through hours with little or no delivery.
-* Staff and family illness mean we pause.
-  - During that time, the postdocs' code advances _a lot_.
-* The project goes 🔴 red and is paused for a few months.
-
-<!-- prettier-ignore-end -->
-
----
-
 ![bg right fit](assets/gpl.png)
 
 # Code woes
@@ -182,14 +169,31 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ---
 
-![bg right:35% vertical 50%](assets/dms-matt-jonc.png)
-![bg right:35% 90%](assets/matt-basix.png)
+# Things go South
+
+<!-- prettier-ignore-start -->
+
+* The way the collaborations team measures indirects changes midway.
+  - At the end of the month, indirects come in a chunk.
+* Both team members have unusually high indirects, burning through hours with little or no delivery.
+* Staff and family illness mean we pause.
+  - During that time, the postdocs' code advances _a lot_.
+* The project goes 🟠 amber (danger of non-delivery) and is paused for a few months.
+
+<!-- prettier-ignore-end -->
+
+---
+
+![bg right:30% vertical 50%](assets/dms-matt-jonc.png)
+![bg right:30% 90%](assets/matt-basix.png)
 
 # 🟢 Back to green
 
 ## May 2024
 
-- In the end, we're overtaken by our postdoc's code development pace.
+> During that time, the postdocs' code advances _a lot_.
+
+- Abandon the idea of a tested, packagified version of the postdoc code.
 - The postdocs get publications 🎉.
 - Very conveniently, we now hire Matthew Scroggs.
   - Remaining hours transferred to a mini FEniCSx development project.
