@@ -54,7 +54,7 @@ footer: S. Cunliffe, 2025-08-18.
 
 - Solving equations in continuous space or on a continuous surface is hard (/impossible).
 - So don't do that.
-- Descritise.
+- Discretise.
 - Define a mesh.
 - Solve the equations on the mesh.
 - Combine to get a global model.
@@ -93,7 +93,7 @@ _footer: Logo: © The FEniCS project
 
 - [FEniCSx](https://docs.fenicsproject.org/) - FEM platform;
 - [FEniCS/DOLFINx](https://docs.fenicsproject.org/dolfinx/v0.9.0/python/) - problem description;
-- [gmsh.py](https://gmsh.info) - meshing with Python API;
+- [gmsh.py](https://gmsh.info) - mesh with a Python API;
 - [pyPardiso](https://github.com/haasad/PyPardiso) - sparse solvers;
 - [PETSc](https://petsc.org/release/petsc4py/) - parallel solvers;
 - [NumPy](https://numpy.org/); [Matplotlib](https://matplotlib.org/).
@@ -122,9 +122,9 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ## Anastasis, Jamie
 
-- Long-running menotring of two postdocs on best practices.
+- Long-running mentoring of two postdocs on best practices.
 - Bar set at: version control, reproducible results in Jupyter, public code for public papers.
-  - Mostly confidence-building and guidance through `git`, virtual environment workflows.
+  - Mostly confidence-building and guidance through `git` and virtual environment workflows.
   - Postdocs attended Software Carpentries.
 - A _lot_ of pausing (during the time when we were at very high capacity).
 
@@ -136,7 +136,7 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 - Matt supports postdocs and gently pushes them to abstract things into a [reusable library](https://github.com/ucl/dxh) (common helper functions, plotting).
 - We realise there's more hours than we could use for mentoring.
-- Suggest to actively take postdoc code, move it into a package.
+- Suggest to actively work on postdoc code, move it into a package.
 - Matt realises he's needed by Thanzi la Onse.
 
 ---
@@ -159,12 +159,12 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 <!-- prettier-ignore-start -->
 
-* The way the collaborations team meausres indirects changes midway.
-  - At end of the month, indirects come in a chunk.
-* Both team members have unusually high indirects. Burn through hours with little/no delivery.
-* Staff and family illness means we pause.
-  - In that time, postdoc code advances _a lot_.
-* Project goes 🔴 red and paused for a few months.
+* The way the collaborations team measures indirects changes midway.
+  - At the end of the month, indirects come in a chunk.
+* Both team members have unusually high indirects, burning through hours with little or no delivery.
+* Staff and family illness mean we pause.
+  - During that time, the postdocs' code advances _a lot_.
+* The project goes 🔴 red and is paused for a few months.
 
 <!-- prettier-ignore-end -->
 
@@ -178,7 +178,7 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 - We learned some code was copied from another library: GPL2!
 
 * Re-implemented offending file in "the FEniCSx way".
-  - Ended up as much fewer lines an nicer code.
+  - Ended up with much fewer lines and neater code.
 
 ---
 
@@ -190,18 +190,18 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 ## May 2024
 
 - In the end, we're overtaken by our postdoc's code development pace.
-- Postdocs get publications 🎉.
+- The postdocs get publications 🎉.
 - Very conveniently, we now hire Matthew Scroggs.
   - Remaining hours transferred to a mini FEniCSx development project.
-  - Erik is very happy with this.
+  - Erik is very happy about this.
 
 ---
 
 # Lessons learned
 
-- Double-check code origin with the postdocs before slapping your preferred license.
-- Make sure any deliverable commitment keeps up with the pace of research team's development.
-- Long-running hour-per-week mentoring projects suffer when collaborations team gets high capacity load.
-  - "Flexible working" and "dynamic staffing" are great, so is continuity and building domain-expertise.
-  - It might actually be possible that a PI can be _too_ nice.
-- (**Sam Cunliffe**) Uncomfortable with the "new" way of handling time-tracking.
+- Double-check the code's origin with the postdocs before applying your preferred license.
+- Make sure any deliverable commitments keep up with the pace of the research team's development.
+- Long-running hour-per-week mentoring projects suffer when the collaborations team has a high capacity load.
+  - "Flexible working" and "dynamic staffing" are great, but so are continuity and building domain expertise.
+  - It might actually be possible for a PI to be _too_ nice.
+- **Sam Cunliffe** is uncomfortable with the "new" way of handling time-tracking.
