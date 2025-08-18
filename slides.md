@@ -92,7 +92,7 @@ _footer: Logo: © The FEniCS project
 # _Actual_ toolstack
 
 - [FEniCSx](https://docs.fenicsproject.org/) - FEM platform;
-- [FEniCS/DOLFINx](https://docs.fenicsproject.org/dolfinx/v0.9.0/python/) - problem description;
+- [FEniCS/DOLFINx](https://docs.fenicsproject.org/dolfinx/v0.9.0/python/) - (Python) computational environment;
 - [gmsh.py](https://gmsh.info) - mesh with a Python API;
 - [pyPardiso](https://github.com/haasad/PyPardiso) - sparse solvers;
 - [PETSc](https://petsc.org/release/petsc4py/) - parallel solvers;
@@ -118,26 +118,29 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ---
 
-# Initial period of mentoring
+# Initial period of mentoring (Oct 2021 - Jul 2022)
 
-## Anastasis, Jamie
+## Anastasis, Jamie, Matt G
 
-- Long-running mentoring of two postdocs on best practices.
+- Mentoring of two postdocs (Deepika from Nov 2021, Janosch from Apr 2021) on best practices.
 - Bar set at: version control, reproducible results in Jupyter, public code for public papers.
-  - Mostly confidence-building and guidance through `git` and virtual environment workflows.
-  - Postdocs attended Software Carpentries.
-- A _lot_ of pausing (during the time when we were at very high capacity).
+  - A lot of confidence-building and guidance through `git`, Docker and virtual environment workflows, using Python.
+  - Technical hurdles due to DOLFINx not initially having stable release / pre-built package
+  - Example Jupyter notebooks collaboratively developed at https://github.com/UCL/fenics-examples
+  - Deepika attended RSE with Python course.
+- Initially weekly meetings included {Anastasis, Jamie, Matt} then just Anastasis from Apr 2021.
+- Project paused in July 2022 - initially short-term then longer term due to capacity issues.
 
 ---
 
-# Matt (Graham) takes over
+# Mentoring restart (May 2023 - Aug 2023)
 
-## May 2023
+## Matt G
 
 - Matt supports postdocs and gently pushes them to abstract things into a [reusable library](https://github.com/ucl/dxh) (common helper functions, plotting).
 - We realise there's more hours than we could use for mentoring.
-- Suggest to actively work on postdoc code, move it into a package.
-- Matt realises he's needed by Thanzi la Onse.
+- Suggest to actively work on postdoc code, move it into a package, potentially help with distributing computation.
+- July 2023 TI planning: Matt looks to handover project to allow rotating back to another project (Thanzi la Mawa).
 
 ---
 
