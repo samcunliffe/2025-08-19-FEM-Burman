@@ -100,7 +100,7 @@ _footer: Logo: © The FEniCS project
 
 ---
 
-# The ~~RITS~~ → ARC collaborations product team project
+# The ~~RITS/RSDG~~ → ARC collaborations product team project
 
 ## Since 2019 (2016)
 
