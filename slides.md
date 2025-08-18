@@ -30,14 +30,14 @@ paginate: true
 _footer: © E. Burman, Linkedin.
 -->
 
-![bg left](assets/erik-linkedin.jpg)
+![bg left:40%](assets/erik-linkedin.jpg)
 
 # What? Who?
 
-- RSE mentoring for two postdocs in Erik Burman's research group:
+- RSE mentoring for two postdocs in [Erik Burman](https://profiles.ucl.ac.uk/36640)'s research group:
   [Janosch Preuẞ](https://www.mps.mpg.de/7387373/pm-20220516-promotionspreis-fuer-janosch-preuss) | [Deepika Garg](https://www.researchgate.net/profile/Deepika-Garg-9).
 - Erik is the _Chair of Computational Mathematics_ and an expert on **Finite Element Methods**.
-  - Insofar as you should trust h-index, his is a big number.
+  - Insofar as you should trust _h-index_, his is a big number.
 
 * He's also really friendly.
 
@@ -50,7 +50,7 @@ _footer: © E. Burman, Linkedin.
 footer: S. Cunliffe, 2025-08-18.
 -->
 
-# Finite element method in six bullets
+# FEM in six bullet points
 
 - Solving equations in continuous space or on a continuous surface is hard (/impossible).
 - So don't do that.
@@ -61,7 +61,13 @@ footer: S. Cunliffe, 2025-08-18.
 
 ---
 
-# The Burkman group research
+<!--
+_footer: Image: © UCL
+-->
+
+![bg left:35%](assets/ucl-maths.jpg)
+
+# The Burman group's research
 
 Is it possible to do FEM without boundary conditions?
 
@@ -72,7 +78,11 @@ Somewhat common code to do both of these things.
 
 ---
 
-![bg left:40% auto](assets/fenics.png)
+<!--
+_footer: Logo: © The FEniCS project
+-->
+
+![bg left:35% auto](assets/fenics.png)
 
 # What FEM is _actually_ doing
 
@@ -81,10 +91,11 @@ Somewhat common code to do both of these things.
 
 # _Actual_ toolstack
 
-- [FEniCSx](https://docs.fenicsproject.org/), [Dolfinx](https://docs.fenicsproject.org/dolfinx/v0.9.0/python/) - FEM platform;
+- [FEniCSx](https://docs.fenicsproject.org/) - FEM platform;
+- [FEniCS/DOLFINx](https://docs.fenicsproject.org/dolfinx/v0.9.0/python/) - problem description;
+- [gmsh.py](https://gmsh.info) - meshing with Python API;
 - [pyPardiso](https://github.com/haasad/PyPardiso) - sparse solvers;
 - [PETSc](https://petsc.org/release/petsc4py/) - parallel solvers;
-- [gmsh.py](https://gmsh.info) - meshing with Python API;
 - [NumPy](https://numpy.org/); [Matplotlib](https://matplotlib.org/).
 
 ---
@@ -123,7 +134,7 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ## May 2023
 
-- Matt supports postdocs and gently pushes them to abstract things into a reusable library (common helper functions, plotting).
+- Matt supports postdocs and gently pushes them to abstract things into a [reusable library](https://github.com/ucl/dxh) (common helper functions, plotting).
 - We realise there's more hours than we could use for mentoring.
 - Suggest to actively take postdoc code, move it into a package.
 - Matt realises he's needed by Thanzi la Onse.
@@ -134,7 +145,11 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ## September 2023
 
+<center>
+
 ![dxss](assets/dxss.png)
+
+</center>
 
 ---
 
@@ -167,19 +182,17 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ---
 
-![bg right:40% fit](assets/matt-basix.png)
+![bg right:35% vertical 50%](assets/dms-matt-jonc.png)
+![bg right:35% 90%](assets/matt-basix.png)
 
 # 🟢 Back to green
 
 ## May 2024
 
-![](assets/dms-matt-jonc.png)
-
 - In the end, we're overtaken by our postdoc's code development pace.
 - Postdocs get publications 🎉.
-- Very conveniently, we now hire Matt Scroggs.
-  - Previous develioper/contributor to FEniCSx.
-  - Remaining hours transferred to a mini-project.
+- Very conveniently, we now hire Matthew Scroggs.
+  - Remaining hours transferred to a mini FEniCSx development project.
   - Erik is very happy with this.
 
 ---
