@@ -167,6 +167,8 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ---
 
+![bg right:40% fit](assets/matt-basix.png)
+
 # 🟢 Back to green
 
 ## May 2024
