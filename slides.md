@@ -34,8 +34,8 @@ _footer: © E. Burman, Linkedin.
 
 # What? Who?
 
-- RSE mentoring for two postdocs in [Erik Burman](https://profiles.ucl.ac.uk/36640)'s research group:
-  [Janosch Preuẞ](https://www.mps.mpg.de/7387373/pm-20220516-promotionspreis-fuer-janosch-preuss) | [Deepika Garg](https://www.researchgate.net/profile/Deepika-Garg-9).
+- Mentoring two postdocs in [Erik Burman](https://profiles.ucl.ac.uk/36640)'s research group:
+  [Depika Garg](https://www.researchgate.net/profile/Deepika-Garg-9) | [Janosch Preuẞ](https://www.mps.mpg.de/7387373/pm-20220516-promotionspreis-fuer-janosch-preuss)
 - Erik is the _Chair of Computational Mathematics_ and an expert on **Finite Element Methods**.
   - Insofar as you should trust _h-index_, his is a big number.
 
@@ -79,10 +79,11 @@ Somewhat common code to do both of these things.
 ---
 
 <!--
-_footer: Logo: © The FEniCS project
+_header: Logo: © The FEniCS project
+_footer: ""
 -->
 
-![bg left:35% auto](assets/fenics.png)
+![bg left:25% fit](assets/fenics.png)
 
 # What FEM is _actually_ doing
 
@@ -92,7 +93,7 @@ _footer: Logo: © The FEniCS project
 # _Actual_ toolstack
 
 - [FEniCSx](https://docs.fenicsproject.org/) - FEM platform;
-- [FEniCS/DOLFINx](https://docs.fenicsproject.org/dolfinx/v0.9.0/python/) - (Python) computational environment;
+- [FEniCS/DOLFINx](https://docs.fenicsproject.org/dolfinx/v0.9.0/python/) - Python computational environment;
 - [gmsh.py](https://gmsh.info) - mesh with a Python API;
 - [pyPardiso](https://github.com/haasad/PyPardiso) - sparse solvers;
 - [PETSc](https://petsc.org/release/petsc4py/) - parallel solvers;
@@ -100,7 +101,7 @@ _footer: Logo: © The FEniCS project
 
 ---
 
-# The ~~RITS/RSDG~~ → ARC collaborations product team project
+# The ~~RITS/RSDG~~ → ARC collaborations product project
 
 ## Since 2019 (2016)
 
@@ -122,14 +123,14 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ## Anastasis, Jamie, Matt G
 
-- Mentoring of two postdocs (Deepika from Nov 2021, Janosch from Apr 2021) on best practices.
-- Bar set at: version control, reproducible results in Jupyter, public code for public papers.
-  - A lot of confidence-building and guidance through `git`, Docker and virtual environment workflows, using Python.
-  - Technical hurdles due to DOLFINx not initially having stable release / pre-built package
-  - Example Jupyter notebooks collaboratively developed at https://github.com/UCL/fenics-examples
+- Mentoring of two postdocs (Deepika from Nov 2021, Janosch from Apr 2021).
+- Weekly meetings included {Anastasis, Jamie, Matt} then just Anastasis from Apr 2021.
+- Bar set at: version control, reproducible results in Jupyter,
+  - A lot of confidence-building and guidance with `git`, Docker, Python and `venv`.
+  - Technical hurdles: DOLFINx not initially having stable release / pre-built package
+  - Collaboratively develop [example Jupyter notebooks](https://github.com/UCL/fenics-examples).
   - Deepika attended RSE with Python course 👍.
-- Initially weekly meetings included {Anastasis, Jamie, Matt} then just Anastasis from Apr 2021.
-- Project paused in July 2022 - initially short-term then longer term due to capacity issues.
+- Project paused Jul 2022 - initially short-term then longer term due to capacity issues.
 
 ---
 
@@ -141,13 +142,13 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
   - Gently encourages them to abstract common functions into a [reusable library](https://github.com/ucl/dxh) (common helper functions, plotting).
 - We realise there's more hours than we could use for mentoring.
 - Suggest to actively work on postdoc code, move it into a package, potentially help with distributing computation.
-- July 2023 TI planning: Matt looks to handover project to allow rotating back to another project (Thanzi la Mawa).
+- July 2023 TI planning: Matt has to handover the project to focus on **Thanzi la Mawa**.
 
 ---
 
 # Sam takes over...
 
-## September 2023
+## Sep 2023
 
 <center>
 
