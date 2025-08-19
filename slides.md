@@ -235,7 +235,7 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 <center>
 
-![coupling2](assets/coupling2.png)
+![w:0.5vw](assets/coupling2.png)
 
 </center>
 
@@ -245,7 +245,7 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 <center>
 
-![coupling3](assets/coupling3.png)
+![w:0.5vw](assets/coupling3.png)
 
 </center>
 
@@ -294,6 +294,5 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 - Make example where boundary is not flat
 - Coupling with other libraries
-
 - Erik's applying for a grant to continue work on coupling, including ARC time for implementation
 
