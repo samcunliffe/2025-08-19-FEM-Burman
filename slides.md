@@ -209,3 +209,91 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
   - "Flexible working" and "dynamic staffing" are great, but so are continuity and building domain expertise.
   - It might actually be possible for a PI to be _too_ nice.
 - **Sam Cunliffe** is uncomfortable with the "new" way of handling time-tracking.
+
+---
+
+# What did I do?
+
+- Erik and Silvia Bertoluzza wrote a paper about a new formulation for coupled problems...
+- "Can you implement this in FEniCSx?"
+
+---
+
+![bg right fit](assets/coupling1.png)
+
+# What is coupling?
+
+- Two parts of the domain where you want:
+  - different PDEs?
+  - different material properties?
+  - different methods?
+  - to use different libraries?
+
+---
+
+# Example
+
+<center>
+
+![coupling2](assets/coupling2.png)
+
+</center>
+
+---
+
+# Example
+
+<center>
+
+![coupling3](assets/coupling3.png)
+
+</center>
+
+---
+
+![bg right fit](assets/coupling4.png)
+
+# Implementation
+
+- Write code that maps solution between softwares
+
+* If you want to add a third library, write a lot more code
+
+* If you want to add a fourth library, write too much code
+
+---
+
+![bg right fit](assets/coupling5.png)
+
+# New method
+
+- Formuate the problem as a integral equation on the boundary between domains
+- Map the solution between the boundary and each domain
+
+---
+
+![bg right fit](assets/coupling6.png)
+
+# Importantly,
+
+- No need to get the two domain softwares to talk to each other
+
+---
+
+![bg right fit](assets/coupling-convergence.png)
+
+# Implementation
+
+- Proof of concept: couples FEniCSx to FEniCSx via FEniCSx on the boundary
+- Example problem with two cubes with non-matching meshes
+- [github.com/mscroggs/celement](https://github.com/mscroggs/celement)
+
+---
+
+# Future work
+
+- Make example where boundary is not flat
+- Coupling with other libraries
+
+- Erik's applying for a grant to continue work on coupling, including ARC time for implementation
+
