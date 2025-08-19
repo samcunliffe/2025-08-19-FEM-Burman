@@ -19,7 +19,7 @@ style: |
 
 ## Project Debrief Talk.
 
-Sam Cunliffe (+ Matt Graham, Matthew Scroggs)
+Sam Cunliffe, Matt Graham, Matthew Scroggs
 
 ARC Collaborations' Hour. 2025-08-19.
 
@@ -213,6 +213,16 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 
 ---
 
+<!--
+_footer: ""
+-->
+
+---
+
+<!--
+footer: M. Scroggs, 2025-08-18
+-->
+
 # What did I do?
 
 - Erik and Silvia Bertoluzza wrote a paper about a new formulation for coupled problems...
@@ -296,4 +306,3 @@ _header: "Image credits: Software Sustainability Institute, A. Georgoulas, J. Qu
 - Make example where boundary is not flat
 - Coupling with other libraries
 - Erik's applying for a grant to continue work on coupling, including ARC time for implementation
-
