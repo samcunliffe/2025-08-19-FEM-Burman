@@ -35,7 +35,7 @@ _footer: © E. Burman, Linkedin.
 # What? Who?
 
 - Mentoring two postdocs in [Erik Burman](https://profiles.ucl.ac.uk/36640)'s research group:
-  [Depika Garg](https://www.researchgate.net/profile/Deepika-Garg-9) | [Janosch Preuẞ](https://www.mps.mpg.de/7387373/pm-20220516-promotionspreis-fuer-janosch-preuss)
+  [Deepika Garg](https://www.researchgate.net/profile/Deepika-Garg-9) | [Janosch Preuẞ](https://www.mps.mpg.de/7387373/pm-20220516-promotionspreis-fuer-janosch-preuss)
 - Erik is the _Chair of Computational Mathematics_ and an expert on **Finite Element Methods**.
   - Insofar as you should trust _h-index_, his is a big number.
 
